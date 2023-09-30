@@ -1,0 +1,73 @@
+:root {
+    --almond: #ffe8d4;
+    --champagne-pink: #ebd2be;
+    --lavender-pink: #e5a4cb;
+    --byzantium: #7f055f;
+    --trian-purple: #45062e;
+    --lighter-trian-purple: #5c1241;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: var(--almond);
+    color: #fff;
+    font-family: sans-serif;
+}
+
+.mediaplayer {
+    background-color: var(--trian-purple);
+    border-radius: 10px;
+    display: block;
+    margin: auto;
+    margin-top: 5%;
+    padding: 25px;
+    text-align: center;
+    width: 50%;
+}
+
+/* DOWNLOAD  */
+.download-file {
+    border: 5px solid var(--byzantium);
+    border-radius: 10px;
+    padding: 30px;
+    
+}
+.download-file:hover {
+    outline: dashed var(--byzantium) 3px;
+}
+.download-file__heading, 
+.download-file__text {
+    margin: 15px 0;
+}
+/* MUSIC-PLAYER */
+.music {
+    margin: 15px 0;
+    width: 100%;
+}
+
+
+/* BUTTONS */
+.btn-music {
+    background-color: transparent;
+    border: 2px solid var(--lavender-pink);
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px;
+    padding: 5px;
+}
+.btn-music:hover {
+    background-color: var(--lighter-trian-purple);
+}
+.btn-music svg path {
+    fill: #fff;
+    stroke: #fff;
+}
+.btn-music:active {
+    outline: dashed var(--lavender-pink);
+}
+
